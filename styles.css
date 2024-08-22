@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-image: url(Images/Cat2.jpg);
+  background-size: cover;
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+}
+
+.container {
+  background-color: #b6bdb6ff;
+  margin: 100px auto;
+  width: 500px;
+  opacity: 50%;
+  border: 3px solid #8c6a47ff;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#count-el {
+  font-size: 2rem;
+}
+
+button {
+  display: block;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 3px 5px;
+  width: 200px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#increment-btn {
+  background: #0891b2;
+}
+
+#increment-btn:hover {
+  box-shadow: 2px 2px 5px #0e7490;
+}
+
+#save-btn {
+  background: #84cc16;
+  margin-top: 5px;
+}
+
+#save-btn:hover {
+  box-shadow: 2px 2px 5px #65a30d;
+}
+
+#save-el {
+  font-size: 1.5rem;
+}
